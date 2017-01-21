@@ -1,0 +1,17 @@
+.btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 3em;
+    font-size: 1.125em;
+    font-weight: 600;
+    padding: 1.25em 3em;
+    transition: all .4s ease-in-out;
+}
+
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #A26366;
+}
